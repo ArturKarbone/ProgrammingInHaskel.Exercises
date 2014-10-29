@@ -9,6 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter1", "Chapter1", "{33
 	ProjectSection(SolutionItems) = preProject
 		Chapter1.hs = Chapter1.hs
 		Chapter2.hs = Chapter2.hs
+		Chapter3.hs = Chapter3.hs
 	EndProjectSection
 EndProject
 Global
