@@ -7,8 +7,17 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Exercises", "Chapter1\Exerc
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter1", "Chapter1", "{33B7B622-FE85-4D26-B0B0-BA685F360386}"
 	ProjectSection(SolutionItems) = preProject
+		Chapter1.fsx = Chapter1.fsx
 		Chapter1.hs = Chapter1.hs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter2", "Chapter2", "{84BD149C-871F-4AF6-B8C1-F6DAA04D67CB}"
+	ProjectSection(SolutionItems) = preProject
 		Chapter2.hs = Chapter2.hs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter3", "Chapter3", "{F837A2D3-525C-4704-A358-DD84DD573C66}"
+	ProjectSection(SolutionItems) = preProject
 		Chapter3.hs = Chapter3.hs
 	EndProjectSection
 EndProject
