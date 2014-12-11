@@ -117,4 +117,14 @@ qsort (x:xs) = qsort smaller ++ [x] ++ qsort larger
 	where
 		smaller = [a | a<-xs,a<=x]
 		larger = [b | b<-xs,b>x]
+		
+last xs = drop (length xs -1) xs -- kind of wrong since returns an array not an element
+last xs = head (drop (length xs -1) xs)
+last xs = xs !! (length xs -1)
+last xs = head (reverse xs)
+
+
+init xs = reverse (tail (reverse xs))
+
+--warmp up lab
 
