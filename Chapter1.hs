@@ -61,6 +61,7 @@ sum [1, 2, 3, 4, 5]
 mysum ([]) = 0
 mysum (x:xs) = x + mysum(xs)
 
+mysum2 xs = if null xs then 0 else head xs + mysum2 (tail xs)
 {-
 sum [1, 2, 3]
 = {applying sum }
