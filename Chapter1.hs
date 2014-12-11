@@ -3,6 +3,7 @@
 --the function, a name for each of its arguments, and a body that specifies how
 --the result can be calculated in terms of the arguments
 
+-- :ghci
 -- :load chaper1.hs
 -- :reload
 
