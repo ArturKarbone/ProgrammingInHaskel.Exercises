@@ -1,3 +1,12 @@
+--higher level of abstraction
+--prefer expressions rather than statements sum[1..10] (two expressions)
+--petri dish. Type system?
+
+Because if you want to experiment with, say a new type system,
+it's a lot of work to build the whole infrastructure
+of the language, the parser, et cetera, for all you want to do
+is to study this new type system.
+
 --In Haskell, a function is a mapping that takes one or more arguments and
 --produces a single result, and is defined using an equation that gives a name for
 --the function, a name for each of its arguments, and a body that specifies how
@@ -111,6 +120,9 @@ local definitions, in this case a list smaller that consists of all elements
 a from the list xs that are less than or equal to x , together with a list larger
 that consists of all elements b from xs that are greater than x
 -}
+
+
+--state mutation in imperative languages
 
 qsort [] = []
 qsort (x:xs) = qsort smaller ++ [x] ++ qsort larger
